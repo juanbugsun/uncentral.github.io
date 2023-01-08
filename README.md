@@ -1,1 +1,1 @@
-source for [2λ.com](https://2λ.com)
+Forked from [t11s](https://github.com/transmissions11/transmissions11.github.io)
