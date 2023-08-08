@@ -1,0 +1,117 @@
+body {
+    font-family: 'Piazzolla', serif;
+    background-color: #93B9D5;
+    background-image: url(../assets/bg-texture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    color: #615C99;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-color-blue{
+    color: #1500FF;
+}
+.content-wrapper{
+    max-width: 75rem;
+    border: 1px solid rgba(42, 228, 33, 0.50);
+    background: rgba(255, 255, 255, 0.90);
+    margin: 7.5rem auto;
+    padding: 10rem 5rem;
+}
+.heading-stlye-h1{
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.subheadline{
+    font-size: 2rem;
+    line-height: 2.125rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+.content{
+    max-width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.5rem;
+}
+.heading-stlye-h2{
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    margin-bottom: 2.125rem;
+}
+ul {
+    padding-left: 0rem;
+    list-style-type: none;
+}
+.list-block{
+margin-bottom: 7.5rem;
+}  
+ul li {
+    padding-left: 1.5rem;
+    background-image: url(../assets/li-bullet.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0.125rem;
+}
+li:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #1500FF;
+}
+a:hover {
+    text-decoration: underline;
+}
+.email{
+    text-align: center;
+    color: #1500FF;
+}
+@media only screen and (max-width: 767px) {
+    body {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    .content-wrapper{
+        margin: 1.25rem auto;
+        padding: 5rem 2.5rem;
+    }
+    .content{
+        max-width: 37.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+    }
+    .heading-stlye-h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    .subheadline{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+    .email{
+        text-align: left;
+    }
+}
